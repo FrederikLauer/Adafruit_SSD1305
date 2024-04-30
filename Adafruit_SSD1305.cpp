@@ -153,7 +153,7 @@ bool Adafruit_SSD1305::begin(uint8_t addr, bool reset) {
   }
 
   //drawBitmap((WIDTH - splash2_width) / 2, (HEIGHT - splash2_height) / 2,
-             splash2_data, splash2_width, splash2_height, 1);
+  //           splash2_data, splash2_width, splash2_height, 1);
 
   // Init sequence, make sure its under 32 bytes, or split into multiples!
   static const uint8_t init_128x32[] = {
